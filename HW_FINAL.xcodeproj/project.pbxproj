@@ -9,23 +9,43 @@
 /* Begin PBXBuildFile section */
 		FC136DE72682906100A443AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC136DE62682906100A443AD /* AppDelegate.swift */; };
 		FC136DE92682906100A443AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC136DE82682906100A443AD /* SceneDelegate.swift */; };
-		FC136DEB2682906100A443AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC136DEA2682906100A443AD /* ViewController.swift */; };
 		FC136DEE2682906100A443AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC136DEC2682906100A443AD /* Main.storyboard */; };
 		FC136DF12682906100A443AD /* HW_FINAL.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC136DEF2682906100A443AD /* HW_FINAL.xcdatamodeld */; };
 		FC136DF32682906900A443AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC136DF22682906900A443AD /* Assets.xcassets */; };
 		FC136DF62682906900A443AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC136DF42682906900A443AD /* LaunchScreen.storyboard */; };
+		FCCF121926838A7400E2FC82 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF121826838A7400E2FC82 /* TicketViewController.swift */; };
+		FCCF121C26838A9B00E2FC82 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF121B26838A9B00E2FC82 /* LoginViewController.swift */; };
+		FCCF121F26838ADD00E2FC82 /* QueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF121E26838ADD00E2FC82 /* QueueViewController.swift */; };
+		FCCF1222268390B800E2FC82 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF1221268390B800E2FC82 /* RegisterViewController.swift */; };
+		FCCF1225268390C400E2FC82 /* QueueSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF1224268390C400E2FC82 /* QueueSettingsViewController.swift */; };
+		FCCF12282683E90C00E2FC82 /* DebugListControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF12272683E90C00E2FC82 /* DebugListControllerTableViewController.swift */; };
+		FCCF122B2683F4B700E2FC82 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF122A2683F4B700E2FC82 /* UserViewController.swift */; };
+		FCCF123126841F2600E2FC82 /* StudentSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF123026841F2600E2FC82 /* StudentSubmitViewController.swift */; };
+		FCCF123426841F6500E2FC82 /* FacultyApproveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF123326841F6500E2FC82 /* FacultyApproveViewController.swift */; };
+		FCCF12372684236500E2FC82 /* NotLoggedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF12362684236500E2FC82 /* NotLoggedViewController.swift */; };
+		FCCF124626843B2B00E2FC82 /* NotLoggedQueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF124526843B2B00E2FC82 /* NotLoggedQueueViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC136DE32682906100A443AD /* HW_FINAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_FINAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC136DE62682906100A443AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC136DE82682906100A443AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC136DEA2682906100A443AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC136DED2682906100A443AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC136DF02682906100A443AD /* HW_FINAL.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HW_FINAL.xcdatamodel; sourceTree = "<group>"; };
 		FC136DF22682906900A443AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC136DF52682906900A443AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC136DF72682906900A443AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCF121826838A7400E2FC82 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		FCCF121B26838A9B00E2FC82 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCCF121E26838ADD00E2FC82 /* QueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueViewController.swift; sourceTree = "<group>"; };
+		FCCF1221268390B800E2FC82 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		FCCF1224268390C400E2FC82 /* QueueSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueSettingsViewController.swift; sourceTree = "<group>"; };
+		FCCF12272683E90C00E2FC82 /* DebugListControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugListControllerTableViewController.swift; sourceTree = "<group>"; };
+		FCCF122A2683F4B700E2FC82 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		FCCF123026841F2600E2FC82 /* StudentSubmitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentSubmitViewController.swift; sourceTree = "<group>"; };
+		FCCF123326841F6500E2FC82 /* FacultyApproveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyApproveViewController.swift; sourceTree = "<group>"; };
+		FCCF12362684236500E2FC82 /* NotLoggedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedViewController.swift; sourceTree = "<group>"; };
+		FCCF124526843B2B00E2FC82 /* NotLoggedQueueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotLoggedQueueViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +80,22 @@
 			children = (
 				FC136DE62682906100A443AD /* AppDelegate.swift */,
 				FC136DE82682906100A443AD /* SceneDelegate.swift */,
-				FC136DEA2682906100A443AD /* ViewController.swift */,
 				FC136DEC2682906100A443AD /* Main.storyboard */,
 				FC136DF22682906900A443AD /* Assets.xcassets */,
 				FC136DF42682906900A443AD /* LaunchScreen.storyboard */,
 				FC136DF72682906900A443AD /* Info.plist */,
 				FC136DEF2682906100A443AD /* HW_FINAL.xcdatamodeld */,
+				FCCF121826838A7400E2FC82 /* TicketViewController.swift */,
+				FCCF121B26838A9B00E2FC82 /* LoginViewController.swift */,
+				FCCF121E26838ADD00E2FC82 /* QueueViewController.swift */,
+				FCCF1221268390B800E2FC82 /* RegisterViewController.swift */,
+				FCCF1224268390C400E2FC82 /* QueueSettingsViewController.swift */,
+				FCCF12272683E90C00E2FC82 /* DebugListControllerTableViewController.swift */,
+				FCCF122A2683F4B700E2FC82 /* UserViewController.swift */,
+				FCCF123026841F2600E2FC82 /* StudentSubmitViewController.swift */,
+				FCCF123326841F6500E2FC82 /* FacultyApproveViewController.swift */,
+				FCCF12362684236500E2FC82 /* NotLoggedViewController.swift */,
+				FCCF124526843B2B00E2FC82 /* NotLoggedQueueViewController.swift */,
 			);
 			path = HW_FINAL;
 			sourceTree = "<group>";
@@ -140,9 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC136DEB2682906100A443AD /* ViewController.swift in Sources */,
+				FCCF12372684236500E2FC82 /* NotLoggedViewController.swift in Sources */,
+				FCCF121926838A7400E2FC82 /* TicketViewController.swift in Sources */,
+				FCCF122B2683F4B700E2FC82 /* UserViewController.swift in Sources */,
+				FCCF124626843B2B00E2FC82 /* NotLoggedQueueViewController.swift in Sources */,
+				FCCF123126841F2600E2FC82 /* StudentSubmitViewController.swift in Sources */,
+				FCCF123426841F6500E2FC82 /* FacultyApproveViewController.swift in Sources */,
 				FC136DF12682906100A443AD /* HW_FINAL.xcdatamodeld in Sources */,
+				FCCF1222268390B800E2FC82 /* RegisterViewController.swift in Sources */,
+				FCCF1225268390C400E2FC82 /* QueueSettingsViewController.swift in Sources */,
+				FCCF121F26838ADD00E2FC82 /* QueueViewController.swift in Sources */,
+				FCCF12282683E90C00E2FC82 /* DebugListControllerTableViewController.swift in Sources */,
 				FC136DE72682906100A443AD /* AppDelegate.swift in Sources */,
+				FCCF121C26838A9B00E2FC82 /* LoginViewController.swift in Sources */,
 				FC136DE92682906100A443AD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
